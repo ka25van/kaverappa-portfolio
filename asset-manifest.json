@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kaverappa-portfolio/static/css/main.dfd15719.css",
+    "main.js": "/kaverappa-portfolio/static/js/main.7ba14f7a.js",
+    "static/media/Screenshot 2024-10-16 221618.png": "/kaverappa-portfolio/static/media/Screenshot 2024-10-16 221618.93945a2eca5e911909b1.png",
+    "static/media/Screenshot 2024-10-16 221507.png": "/kaverappa-portfolio/static/media/Screenshot 2024-10-16 221507.4bd4f43ec34f90725467.png",
+    "static/media/1742188756594-removebg-preview.png": "/kaverappa-portfolio/static/media/1742188756594-removebg-preview.91a624078a6f83b8203a.png",
+    "static/media/udemy-DA.jpg": "/kaverappa-portfolio/static/media/udemy-DA.dc85957711c196778f37.jpg",
+    "static/media/Screenshot 2024-10-16 221702.png": "/kaverappa-portfolio/static/media/Screenshot 2024-10-16 221702.29938e32bf2641e336f9.png",
+    "static/media/aws-sol-arc-asso.png": "/kaverappa-portfolio/static/media/aws-sol-arc-asso.12a990d2fdde9b3dc869.png",
+    "static/media/python.png": "/kaverappa-portfolio/static/media/python.65b5ddcc17680989e0f9.png",
+    "static/media/IMG-20240829-WA0002.jpg": "/kaverappa-portfolio/static/media/IMG-20240829-WA0002.c6aee04d7d02987f9c4f.jpg",
+    "static/media/Backend-certificate-infoedge.jfif": "/kaverappa-portfolio/static/media/Backend-certificate-infoedge.a738b4e898c6a98bb514.jfif",
+    "static/media/IMG-20240829-WA0001.jpg": "/kaverappa-portfolio/static/media/IMG-20240829-WA0001.c8dc6caf8b88d8f9ba01.jpg",
+    "index.html": "/kaverappa-portfolio/index.html",
+    "main.dfd15719.css.map": "/kaverappa-portfolio/static/css/main.dfd15719.css.map",
+    "main.7ba14f7a.js.map": "/kaverappa-portfolio/static/js/main.7ba14f7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfd15719.css",
+    "static/js/main.7ba14f7a.js"
+  ]
+}
