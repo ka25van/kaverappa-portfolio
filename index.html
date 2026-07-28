@@ -385,14 +385,17 @@ footer p{font-size:0.75rem;color:var(--text-muted);font-family:'JetBrains Mono',
 <div class="divider"></div>
 
 <!-- PROJECTS -->
+<!-- PROJECTS -->
 <div class="section-wrap" id="projects">
   <div class="reveal">
     <p class="section-label">// builds</p>
     <h2 class="section-title">Projects</h2>
     <p class="section-sub">Personal experiments at the frontier of AI, agents, and full-stack engineering</p>
   </div>
+
   <div class="projects-grid">
 
+    <!-- ===================== FEATURED PROJECT 01 ===================== -->
     <div class="proj-card featured reveal">
       <div class="proj-header">
         <div class="proj-num">FEATURED · 01</div>
@@ -400,13 +403,38 @@ footer p{font-size:0.75rem;color:var(--text-muted);font-family:'JetBrains Mono',
           <a href="https://github.com/ka25van" class="proj-link-icon" target="_blank">GitHub ↗</a>
         </div>
       </div>
-      <div class="proj-name">GraphRAG — Knowledge Graph Query Engine</div>
-      <div class="proj-stack">
-        <span class="proj-tag">FastAPI</span><span class="proj-tag">Python</span><span class="proj-tag">LangChain</span><span class="proj-tag">Ollama</span><span class="proj-tag">FAISS</span><span class="proj-tag">spaCy</span><span class="proj-tag">Neo4j</span><span class="proj-tag">SQLite</span>
+
+      <div class="proj-name">
+        Aegis AI – Agentic AI Engineering & AIOps Platform
       </div>
-      <p class="proj-desc">Real-time entity extraction using spaCy feeds a dynamic Neo4j knowledge graph for relationship-aware Graph RAG querying. Integrates LangChain Text2SQL agents for natural language queries against auto-generated SQLite databases from uploaded documents. Uses Ollama with FAISS for semantic document chunk search and summarization — combining graph traversal with vector similarity in a single pipeline.</p>
+
+      <div class="proj-stack">
+        <span class="proj-tag">FastAPI</span>
+        <span class="proj-tag">React</span>
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">LangGraph</span>
+        <span class="proj-tag">LangChain</span>
+        <span class="proj-tag">Ollama</span>
+        <span class="proj-tag">PostgreSQL</span>
+        <span class="proj-tag">pgvector</span>
+        <span class="proj-tag">Redis</span>
+        <span class="proj-tag">Docker</span>
+        <span class="proj-tag">Prometheus</span>
+        <span class="proj-tag">MCP</span>
+      </div>
+
+      <p class="proj-desc">
+        Enterprise-grade Agentic AI & AIOps platform that empowers software engineers,
+        DevOps engineers, SREs, and AI engineers through repository intelligence,
+        engineering knowledge retrieval, deployment planning, incident investigation,
+        and AI-assisted operational decision-making. Built around a planner-centric
+        multi-agent architecture using LangGraph, Hybrid RAG, semantic memory,
+        PostgreSQL (pgvector), MCP tool orchestration, and Human-in-the-Loop (HITL)
+        approvals for intelligent engineering workflows.
+      </p>
     </div>
 
+    <!-- ===================== FEATURED PROJECT 02 ===================== -->
     <div class="proj-card featured reveal reveal-delay">
       <div class="proj-header">
         <div class="proj-num">FEATURED · 02</div>
@@ -414,27 +442,62 @@ footer p{font-size:0.75rem;color:var(--text-muted);font-family:'JetBrains Mono',
           <a href="https://github.com/ka25van" class="proj-link-icon" target="_blank">GitHub ↗</a>
         </div>
       </div>
-      <div class="proj-name">LangGraph + MCP Multi-Agent System</div>
-      <div class="proj-stack">
-        <span class="proj-tag">LangGraph</span><span class="proj-tag">MCP Servers</span><span class="proj-tag">LangChain</span><span class="proj-tag">Llama 3.2</span><span class="proj-tag">Node.js</span>
+
+      <div class="proj-name">
+        GraphRAG — Knowledge Graph Query Engine
       </div>
-      <p class="proj-desc">Multi-agent system using LangGraph and a custom MCP server to intelligently route user queries to specialized agents based on intent. Powered by a local Llama 3.2 model running fully on-device, demonstrating production-grade agentic frameworks without cloud LLM dependency. Personalizes conversation flow by routing inquiries to the most contextually appropriate agent.</p>
+
+      <div class="proj-stack">
+        <span class="proj-tag">FastAPI</span>
+        <span class="proj-tag">Python</span>
+        <span class="proj-tag">LangChain</span>
+        <span class="proj-tag">Ollama</span>
+        <span class="proj-tag">FAISS</span>
+        <span class="proj-tag">spaCy</span>
+        <span class="proj-tag">Neo4j</span>
+        <span class="proj-tag">SQLite</span>
+      </div>
+
+      <p class="proj-desc">
+        Real-time entity extraction using spaCy feeds a dynamic Neo4j knowledge graph
+        for relationship-aware Graph RAG querying. Integrates LangChain Text2SQL agents
+        for natural language queries against auto-generated SQLite databases from uploaded
+        documents. Combines graph traversal with vector similarity search using Ollama
+        embeddings and FAISS.
+      </p>
     </div>
 
-    <div class="proj-card reveal">
+    <!-- ===================== PROJECT 03 ===================== -->
+    <div class="proj-card reveal reveal-delay">
       <div class="proj-header">
         <div class="proj-num">03</div>
         <div class="proj-links">
           <a href="https://github.com/ka25van" class="proj-link-icon" target="_blank">GitHub ↗</a>
         </div>
       </div>
-      <div class="proj-name">Meridian Events Platform</div>
-      <div class="proj-stack">
-        <span class="proj-tag">Angular</span><span class="proj-tag">Node.js</span><span class="proj-tag">PostgreSQL</span><span class="proj-tag">Redis</span><span class="proj-tag">NgRx</span><span class="proj-tag">RxJS</span><span class="proj-tag">GitHub Actions</span>
+
+      <div class="proj-name">
+        LangGraph + MCP Multi-Agent System
       </div>
-      <p class="proj-desc">End-to-end event management platform for creating, viewing, and participating in live events. Angular performance optimized with ChangeDetection strategy and lazy-loading, reducing initial load time by 70%. NgRx and RxJS handle state management, Redis caching handles traffic spikes.</p>
+
+      <div class="proj-stack">
+        <span class="proj-tag">LangGraph</span>
+        <span class="proj-tag">MCP</span>
+        <span class="proj-tag">LangChain</span>
+        <span class="proj-tag">Llama 3.2</span>
+        <span class="proj-tag">Node.js</span>
+      </div>
+
+      <p class="proj-desc">
+        Multi-agent system powered by LangGraph and a custom MCP server that routes
+        user requests to specialized agents based on intent. Runs locally using
+        Llama 3.2 through Ollama, demonstrating production-style agent orchestration,
+        intelligent tool routing, and context-aware decision making without relying
+        on cloud-hosted LLMs.
+      </p>
     </div>
 
+    <!-- ===================== PROJECT 04 ===================== -->
     <div class="proj-card reveal reveal-delay">
       <div class="proj-header">
         <div class="proj-num">04</div>
@@ -442,17 +505,29 @@ footer p{font-size:0.75rem;color:var(--text-muted);font-family:'JetBrains Mono',
           <a href="https://github.com/ka25van" class="proj-link-icon" target="_blank">GitHub ↗</a>
         </div>
       </div>
-      <div class="proj-name">GenAI Text Generator</div>
-      <div class="proj-stack">
-        <span class="proj-tag">React</span><span class="proj-tag">Node.js</span><span class="proj-tag">GPT-2</span><span class="proj-tag">HuggingFace</span><span class="proj-tag">MongoDB</span>
+
+      <div class="proj-name">
+        GenAI Text Generator
       </div>
-      <p class="proj-desc">Full-stack GenAI application generating context-aware text using GPT-2 models hosted via Hugging Face. Custom prompt and tokenizer pipelines for creative content. React frontend with controls for style, tone, and length tuning. Node.js backend handles API integration, session caching, and generation state.</p>
+
+      <div class="proj-stack">
+        <span class="proj-tag">React</span>
+        <span class="proj-tag">Node.js</span>
+        <span class="proj-tag">GPT-2</span>
+        <span class="proj-tag">HuggingFace</span>
+        <span class="proj-tag">MongoDB</span>
+      </div>
+
+      <p class="proj-desc">
+        Full-stack Generative AI application using GPT-2 models hosted through
+        Hugging Face for context-aware text generation. Supports customizable prompts,
+        tone and length controls, with a React frontend and Node.js backend managing
+        model inference, API integration, and generation workflows.
+      </p>
     </div>
 
   </div>
 </div>
-
-<div class="divider"></div>
 
 <!-- EDUCATION -->
 <div class="section-wrap" id="education">
